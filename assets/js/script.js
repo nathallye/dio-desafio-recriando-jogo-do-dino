@@ -1,4 +1,4 @@
-// visando um código limpo, removi todos os comentário de auxilio de estudo para o arquivo studies.js
+// visando um código limpo, removi todos os comentários de auxilio de estudo para o arquivo studies.js
 
 const dino = document.querySelector('.dino');
 const background = document.querySelector('.background'); 
