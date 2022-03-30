@@ -13,7 +13,7 @@ function handleKeyup(event) {
       jump(); 
     }
   } 
-};
+}
 
 function jump() {
   let isJumping = true;
@@ -40,8 +40,8 @@ function jump() {
 
       dino.style.bottom = dinoPosition + 'px'; 
     }
-  }, 20); 
-};
+  }, 20)
+}
 
 function createCactus() {
   const cactus = document.createElement('div'); 
@@ -71,7 +71,7 @@ function createCactus() {
     
       cactus.style.left = cactusPosition + 'px';
     }
-  }, 30);
+  }, 30)
 
   setTimeout(createCactus, randomTime);
 }

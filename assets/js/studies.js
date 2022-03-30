@@ -15,7 +15,7 @@ function handleKeyup(event) { // argumento event: ele é enviado para função t
       jump(); // ele pula
     }
   } 
-};
+}
 
 // função responsável pelo pulo do dino
 function jump() {
@@ -35,7 +35,7 @@ function jump() {
 
           dino.style.bottom = dinoPosition + 'px'; // alerar as propriedades de estido do elemento dino. Nesse casso, o bottom vai assumir o valor de dinoPosition em px.
         }
-      }, 20);
+      }, 20)
 
     } else {
       // Subindo
@@ -43,7 +43,7 @@ function jump() {
 
       dino.style.bottom = dinoPosition + 'px'; 
     }
-  }, 20); //20 milisegundos. Com isso, conseguimos executar o código de maneira repetida.
+  }, 20) //20 milisegundos. Com isso, conseguimos executar o código de maneira repetida.
 }
 
 function createCactus() {
@@ -68,7 +68,7 @@ function createCactus() {
     
       cactus.style.left = cactusPosition + 'px';
     }
-  }, 20);
+  }, 20)
 
   setTimeout(createCactus, randomTime); // o método setTimeout serve para executarmos determinada função depois de determinado tempo (1° argumento - função que vai ser execulada; 2° argumento - tempo em milisegundos); isso nada mais é que uma função invocando ela mesma(ela dentro dela), isso se chama recursividade.
 }
